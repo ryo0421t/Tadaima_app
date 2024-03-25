@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingWifi2">
+
+    <TextView
+        android:id="@+id/STextVew1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="460dp"
+        android:text="WiFi設定"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/SEditText00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="384dp"
+        android:hint="SSID:"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/ButtonWifiSave"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="366dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="291dp"
+        android:background="@drawable/btnround"
+        android:text="保存"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/ButtonWifiCheck"
+        android:layout_width="218dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="366dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="291dp"
+        android:background="@drawable/btnround"
+        android:text="確認する"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/ButtonWifiNext"
+        android:layout_width="407dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="446dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="207dp"
+        android:background="@drawable/btnround"
+        android:text="設定を終了する"
+        android:textSize="20dp" />
+
+</RelativeLayout>
